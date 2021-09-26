@@ -6,7 +6,7 @@ export const applyCustomCode = externalCodeSetup => {
 	// call custom code api here
 
     externalCodeSetup.indexJsApi.addIndexJsFunction(() => {
-		console.log("function from external set upo");
+		console.log("function from external setup");
 	});
 
 	const reducerName = "external reducer";
