@@ -1,3 +1,4 @@
+import ActivityHeader from "./components/ActivityHeader";
 export const applyCustomCode = externalCodeSetup => {
-	// call custom code api here
-};
+  externalCodeSetup.activitiesScreenApi.setActivityHeaderComponent(props => <ActivityHeader {...props} />)
+}
